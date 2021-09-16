@@ -1,0 +1,44 @@
+html
+{
+    background-color: #e0f3fa;
+}
+
+header a
+{
+    margin: 10px;
+
+    color: #19378a;
+}
+
+header li
+{
+    background-color: #fafafa;
+
+    padding: 8px 9px 5px 9px;
+
+    transition: border-radius .3s, background-color .3s;
+
+    border: 1px solid #19378a;
+    border-radius: 7px 7px 7px 0;
+}
+
+header li:hover
+{
+    border-radius: 12px;
+    background-color: #e0dffb;
+}
+
+header li:active
+{
+    border-radius: 0;
+}
+
+body
+{
+    font-family: 'Roboto';
+
+    display: flex;
+    flex-direction: column;
+
+    color: #19378a;
+}
