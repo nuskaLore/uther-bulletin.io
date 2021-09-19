@@ -1,4 +1,8 @@
 html
+body {
+    background-color: rgb(48, 48, 48);
+}
+
 {
     background-color: #ffffff00;
 }
@@ -12,7 +16,7 @@ header a
 
 header li
 {
-    background-color: #fafafa;
+    background-color: #b3b3b3;
 
     padding: 8px 9px 5px 9px;
 
@@ -25,7 +29,7 @@ header li
 header li:hover
 {
     border-radius: 12px;
-    background-color: #e0dffb;
+    background-color: #303030;
 }
 
 header li:active
@@ -40,5 +44,19 @@ body
     display: flex;
     flex-direction: column;
 
-    color: #2e2e2e;
+    color: #c2c2c2;
 }
+
+p, h1, h2, h3, ul
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    }
+
+ul{
+    list-style:none;
+    }
