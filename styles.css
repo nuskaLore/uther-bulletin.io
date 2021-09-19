@@ -1,13 +1,13 @@
 html
 {
-    background-color: #e0f3fa;
+    background-color: #ffffff00;
 }
 
 header a
 {
     margin: 10px;
 
-    color: #19378a;
+    color: #383838;
 }
 
 header li
@@ -18,7 +18,7 @@ header li
 
     transition: border-radius .3s, background-color .3s;
 
-    border: 1px solid #19378a;
+    border: 1px solid #424346;
     border-radius: 7px 7px 7px 0;
 }
 
@@ -40,5 +40,5 @@ body
     display: flex;
     flex-direction: column;
 
-    color: #19378a;
+    color: #2e2e2e;
 }
